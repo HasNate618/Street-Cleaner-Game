@@ -3892,19 +3892,20 @@ MonoBehaviour:
   m_Text: 'There are Recycling, Garbage, and Organics bins
 
 
-
-    Drag the waste
-    items into the correct bin
-
+    Waste items will
+    appear at the top of the screen and slowly make their way toward the bottom
 
 
-    Check the waste guide menu to see what waste
-    items belong in which bin
+    Drag
+    the waste items into the correct bin before they hit the bottom
 
 
+    Check the
+    waste guide menu to see what waste items belong in which bin
 
-    Try to get the most items in the correct bins
-    within 90 seconds'
+
+    Try to get
+    the most items in the correct bins within 90 seconds'
 --- !u!222 &1180350130
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4746,7 +4747,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 200}
+  m_SizeDelta: {x: 0, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1475715483
 MonoBehaviour:
