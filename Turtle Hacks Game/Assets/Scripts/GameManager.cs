@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] ItemSpawner itemSpawner;
 
     public int recyclingScore, garbageScore, organicsScore, mistakes, time;
-    [SerializeField] Text recyclingText, garbageText, organicsText, mistakesText, timer, report;
+    [SerializeField] Text recyclingText, garbageText, organicsText, mistakesText, timer, report, accuracyText;
     [SerializeField] GameObject endPanel, iconsPanel;
     [SerializeField] Image itemIcon, binIcon;
 
@@ -86,6 +86,8 @@ public class GameManager : MonoBehaviour
                 Audio.PlaySound("PointLoss", null);
                 break;
         }
+        int accuracy = (int)(100 - (mistakes * 100f / (recyclingScore + garbageScore + organicsScore + mistakes)));
+        accuracyText.text = "Accuracy: " + accuracy.ToString() + "%";
     }
 
     public void OnGameEnd()
