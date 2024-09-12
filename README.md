@@ -9,6 +9,7 @@ The largest challenge I faced during this hackathon was the time. Game dev is ti
 
 ## Accomplishments that I'm proud of
 I'm proud of what I was able to accomplish within the time I was given.
+🏆Won 2nd place at GameHACKS 1.0
 
 ## What I learned
 I learned new functions in Unity and C# and I also feel I have improved my 3D modelling skills.
